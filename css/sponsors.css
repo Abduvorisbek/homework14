@@ -1,0 +1,64 @@
+#sponsors {
+  padding: 130px 0;
+  background: #fdd04a;
+}
+
+.sponsors-heading {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sponsors-heading h1 {
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #222730;
+}
+
+.kok-chiziq {
+    position: relative;
+    top: 10px;
+    left: 40px;
+}
+
+.sponsors-heading p {
+    margin-top: 44px;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #555555;
+}
+
+.sponsors-logos {
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width:1280px) {
+    .sponsors-logos {
+        flex-wrap: wrap;
+        justify-content: center; 
+        gap: 40px;
+    }
+}
+
+@media (max-width:506px) {
+    br {
+        display: none;
+    }
+    .sponsors-heading h1 {
+        font-size: 39px;
+    }
+    .sponsors-heading p {
+        margin-top: 30px;
+        font-size: 13px;
+    }
+    .kok-chiziq {
+        top: 0;
+        width: 250px;
+    }
+}

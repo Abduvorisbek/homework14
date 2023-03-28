@@ -1,0 +1,133 @@
+#stop-shop {
+  padding: 130px 0;
+  width: 100%;
+  background-image: url(../images/stop-shop-bgc.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+}
+
+.stop-shop-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.stop-shop-heading-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.stop-shop-heading-title h4 {
+  letter-spacing: 2px;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--title-color);
+}
+.stop-shop-heading-h1 {
+  margin-top: 25px;
+}
+.stop-shop-heading-h1 h1 {
+  font-weight: 100;
+  font-size: 64px;
+  line-height: 74px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.stop-shop-heading-p {
+  margin-top: 40px;
+}
+.stop-shop-heading-p p {
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: rgba(223, 223, 223, 0.8);
+}
+.stop-shop-card-block {
+  margin-top: 61px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+}
+
+.stop-shop-card {
+  padding: 35px 40px;
+  display: flex;
+  gap: 20px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+}
+.stop-shop-card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.stop-shop-card-content h1 {
+  font-weight: 100;
+  font-size: 32px;
+  line-height: 42px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.stop-shop-card-content p {
+  font-size: 18px;
+  line-height: 28px;
+  color: rgba(223, 223, 223, 0.8);
+}
+
+@media (max-width:1300px) {
+    br {
+        display: none;
+    }
+    .stop-shop-card-block {
+        margin-top: 100px;
+        gap: 60px;
+    }
+    .stop-shop-card {
+        padding: 50px 30px;
+    }
+}
+
+@media (max-width:600px) {
+    .stop-shop-card-block {
+        margin-top: 60px;
+    }
+    .stop-shop-card {
+        padding: 30px 20px;
+        gap: 10px;
+    }
+    .stop-shop-card-vector img {
+        width: 25px;
+    }
+    .stop-shop-card-content h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .stop-shop-card-content p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:506px) {
+    .stop-shop-heading-title {
+        flex-direction: column;
+    }
+    .stop-shop-heading-title h4 {
+        font-size: 10px;
+    }
+    .stop-shop-heading-h1 h1 {
+        font-size: 39px;
+        line-height: 60px;
+    }
+    .stop-shop-heading-p {
+        margin-top: 20px;
+    }
+    .stop-shop-heading-p p {
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,145 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  padding: 30px 0 30px;
+  background-image: linear-gradient(to right, black 0 50%, #57b8ff 50% 100%);
+  transition: 0.5s;
+}
+.navbar-shrink {
+  padding: 10px 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.nav-left h3 {
+  margin-left: 5px;
+  font-family: PTSans;
+  color: white;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+.tocka {
+  margin-top: 15px;
+  margin-left: 3px;
+}
+
+.nav-middle ul {
+  display: flex;
+  gap: 70px;
+}
+
+.nav-middle a {
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--link-color);
+  letter-spacing: 1px;
+}
+
+.nav-middle a:hover {
+  color: #fac422;
+}
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.nav-right button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.contact {
+  padding: 16px 31px;
+  color: var(--link-color);
+  font-size: 18px;
+  line-height: 30px;
+  border: 1px solid white;
+}
+.language  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.uz img {
+  width: 30px;
+}
+.eng img {
+  width: 30px;
+}
+
+
+.menu,
+.close {
+  display: none;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.nav-middle .contact {
+  display: none;
+}
+
+@media (max-width: 1110px) {
+  .nav-middle ul {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(238, 237, 237);
+    transition: 0.7s;
+  }
+  .nav-middle ul a:not(.contact) {
+    font-size: 40px;
+    color: black;
+  }
+  .menu,
+  .close {
+    display: block;
+  }
+  .close {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+  }
+
+  .close img {
+    width: 30px;
+  }
+  .nav-middle .contact {
+    display: block;
+    color: black;
+    border: 2px solid #fac422;
+    font-size: 30px;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .contact {
+    display: none;
+  }
+  #dark-light img {
+    width: 40px;
+  }
+}

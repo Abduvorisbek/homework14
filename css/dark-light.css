@@ -1,0 +1,57 @@
+.light header {
+    background: rgb(238, 237, 237);
+}
+
+.light header h3 {
+    color: black;
+}
+
+.light nav li a {
+    color: black;
+}
+
+.light nav .nav-right a {
+    border: 1px solid black;
+    color: black;
+}
+
+.light nav svg path {
+    fill: black;
+}
+.light #home {
+    background: rgb(238, 237, 237);
+}
+
+.light .home-left-heading h1 {
+    color: black;
+}
+.light .home-left-p p {
+    color: rgb(91, 91, 91);
+}
+.light .home-left-btns a {
+    color: black;
+}
+.light .home-left-btns a:hover {
+    color: white;
+}
+.light #new-era {
+    background: rgb(238, 237, 237);
+}
+.light .new-era-heading h1 {
+    color: black;
+}
+.light .new-era-p p {
+    color: black;
+}
+.light #latest-new{
+    background: rgb(238, 237, 237);
+}
+.light .latest-new-top-left-heading h1 {
+    color: black;
+}
+.light .latest-new-bottom-left h2 {
+    color: black;
+}
+.light .latest-new-bottom-right-cards h3 {
+    color: black;
+}

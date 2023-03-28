@@ -1,0 +1,60 @@
+#smooth {
+  background: black;
+  display: flex;
+  justify-content: center;
+}
+
+.smooth-card1 {
+  background-image: url(../images/smooth-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.smooth-card2 {
+  background-image: url(../images/smooth-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.smooth-card3 {
+  background-image: url(../images/smooth-3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.smooth-card {
+  height: 732px;
+  width: 507px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.smooth-card h2 {
+  font-weight: 100;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+@media (max-width:1300px) {
+    #smooth {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 50px;
+    }
+    
+}
+
+@media (max-width:1030px) {
+    #smooth {
+        gap: 0;
+    }
+    .smooth-card {
+        width: 100%;
+    }
+}
